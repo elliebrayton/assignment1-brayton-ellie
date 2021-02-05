@@ -1,0 +1,36 @@
+body{
+    background-image: url('../img/sprinkles.jpg');
+}
+
+.content{
+    min-height: 100vh;
+}
+
+.wrapper{
+    position: relative;
+    background: white;
+    transform: translateY(50px);
+}
+
+img{
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: -99;
+
+}
+
+form{
+    background: white;
+}
+
+.wrapper, form{
+    border-radius: 20px;
+}
+
+h1{
+    font-family: circe-slab-c, serif;
+    font-weight: 900;
+    font-style: normal;
+}
