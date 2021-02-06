@@ -44,7 +44,23 @@
     <div class="row">
         <div class="col-md-12"></div>
     </div>
-    <!-- RATING -->
+    <!-- RADIO -->
+    <div class="row">
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="radioButton1" value="radioButton1">
+            <label for="form-check-label" for="radioButton1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="radioButton2" value="radioButton2">
+            <label for="form-check-label" for="radioButton1">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="radioButton3" value="radioButton3">
+            <label for="form-check-label" for="radioButton3">3</label>
+        </div>
+
+    </div>
+    <!-- DROPDOWN-->
 
     <div class="row px-3 pb-3">
         <p>Select Your Favorite Flavor</p>
